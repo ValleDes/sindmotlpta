@@ -6,9 +6,13 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  public nomeUsu:string = "Fábio Valle"
+  public nomeUsu:String = this.getUsuario();
+
   constructor(public navCtrl: NavController) {
 
   }
-
+  
+  public getUsuario(): String {
+      return "Fábio Valle"
+  }
 }
