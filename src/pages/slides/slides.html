@@ -7,10 +7,11 @@
 
 
 <ion-content padding>
-    <ion-slides pager>
+    <a (click)="goToTabsPage()">Iniciar App</a>  
+  <ion-slides pager>
         
         <ion-slide style="background-color: white">     
-            <a (click)="goToTabsPage()">Iniciar App</a>      
+                  
             <h2>Bem-vindo ao SincovelApp</h2> 
             <br><br><br><br>
             <img src="../../assets/imgs/sincovelpa_v1.png"/>            
@@ -25,7 +26,7 @@
           </ion-slide>
         
           <ion-slide style="background-color: white">
-              <a (click)="goToTabsPage()">Iniciar App</a>
+            
               <h2>Na palma da sua mão</h2>
               <br><br><br><br>
               <img src="../../assets/imgs/tablet.png"/>
@@ -38,7 +39,7 @@
           </ion-slide>
         
           <ion-slide style="background-color: white">
-              <a (click)="goToTabsPage()">Iniciar App</a>  
+          
             <h2>Rápido e Prático</h2>
               <br>
               <img src="../../assets/imgs/barbeiro.jpg"/>
